@@ -3,3 +3,6 @@ server:
 spring:
   application:
     name: reggit_take_out
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
